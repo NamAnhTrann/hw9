@@ -7,7 +7,7 @@
    "data": {"graticule": {"step": [30, 30]}},
   "mark": {"type": "geoshape", "stroke": "#ccc"},
   "data": {
-    "url": "../dataset_hw_assignment/ne_1.json",
+    "url": "ne_1.json",
     "format": {
       "type": "topojson",
       "feature": "ne_10m_admin_1_states_provinces"
@@ -18,7 +18,7 @@
       "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "../dataset_hw_assignment/hw_data_cleaned.csv"
+          "url": "hw_data_cleaned.csv"
         },
         "key": "Region of usual residence",
         "fields": ["2023 Rate"]
@@ -43,3 +43,4 @@
     ]
   }
 }
+

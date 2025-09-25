@@ -30,7 +30,7 @@
     "color": {
       "field": "2023 Rate",
       "type": "quantitative",
-      "title": "Death rate in %)",
+      "title": "Death rate in %",
       "scale": {
         "type": "threshold",
         "domain": [4, 6, 8, 10],
@@ -43,4 +43,5 @@
     ]
   }
 }
+
 
